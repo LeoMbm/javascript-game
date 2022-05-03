@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+
+#game{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.case{
+    border: 1px solid #000;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+}
